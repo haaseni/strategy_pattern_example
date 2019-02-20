@@ -1,0 +1,11 @@
+H:\Projects\github\strategy_pattern_example\src\bin\Debug\netcoreapp2.2\strategy_pattern_example.deps.json
+H:\Projects\github\strategy_pattern_example\src\bin\Debug\netcoreapp2.2\strategy_pattern_example.runtimeconfig.json
+H:\Projects\github\strategy_pattern_example\src\bin\Debug\netcoreapp2.2\strategy_pattern_example.runtimeconfig.dev.json
+H:\Projects\github\strategy_pattern_example\src\bin\Debug\netcoreapp2.2\strategy_pattern_example.dll
+H:\Projects\github\strategy_pattern_example\src\bin\Debug\netcoreapp2.2\strategy_pattern_example.pdb
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.csprojAssemblyReference.cache
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.csproj.CoreCompileInputs.cache
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.AssemblyInfoInputs.cache
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.AssemblyInfo.cs
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.dll
+H:\Projects\github\strategy_pattern_example\src\obj\Debug\netcoreapp2.2\strategy_pattern_example.pdb
