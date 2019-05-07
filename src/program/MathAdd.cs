@@ -2,7 +2,7 @@
 {
     public class MathSubtract : IMathOperator
     {
-        public int Operation(int a, int b)
+        public int Calculate(int a, int b)
         {
             return a - b;
         }

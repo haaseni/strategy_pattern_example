@@ -2,6 +2,6 @@
 {
     public interface IMathOperator
     {
-        int Operation(int a, int b);
+        int Calculate(int a, int b);
     }
 }

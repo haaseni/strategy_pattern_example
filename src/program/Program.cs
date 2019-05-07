@@ -22,23 +22,33 @@ namespace strategy_pattern_example
         static void QueryUser()
         {
             Console.WriteLine("\nFirst Number:");
-            var num1 = Console.ReadLine();
+            var aVal = Console.ReadLine();
 
             Console.WriteLine("Math Operation? (+,-,/,*):");
             var strategy = Console.ReadLine();
 
             Console.WriteLine("Second Number:");
-            var num2 = Console.ReadLine();
+            var bVal = Console.ReadLine();
 
-            IMathOperator selectedStrategy = strategies[strategy];
-            int result = selectedStrategy.Operation(Convert.ToInt32(num1), Convert.ToInt32(num2));
-            Console.WriteLine($"Result: {result}\n");
+            if (int.TryParse(aVal, out var aNum) && int.TryParse(bVal, out var bNum))
+            {
+                IMathOperator selectedStrategy = strategies[strategy];
+
+                var result = Calculate(aNum, bNum, selectedStrategy);
+
+                Console.WriteLine($"Result: {result}\n");
+            }
             
             Console.WriteLine("Would you like to conduct another math operation? (y/n):");
             var runAgain = Console.ReadLine();
 
             if (runAgain?.ToLower() == "y")
                 QueryUser();
+        }
+
+        static int Calculate(int a, int b, IMathOperator op)
+        {
+            return op.Calculate(a, b);
         }
     }
 }
